@@ -5,12 +5,12 @@
 }
 
 body {
-    background-image: url('/Fotos-e-Videos/wallpaper.jpg');
     background-position: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 90vh;
+    background-image: url('../Fotos-e-Videos/wallpaper.jpg');
 }
 
 h1 {
