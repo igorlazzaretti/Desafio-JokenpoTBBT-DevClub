@@ -1,9 +1,9 @@
 
 *{margin: 0; padding: 0; box-sizing: border-box; }
-body{background-image: url("/Fotos-e-Videos/tbbtwallpaper.jpg");
+body{background-image: url("/Fotos-e-Videos/tbbtwallpaper2.jpg");
  background-position: auto;
 display: flex; justify-content: center; align-items: center;
-height: 90vh; }
+height: 90vh;  } 
 h1{font-size: 45px; font-style:italic}
 section{ padding: 20px; background-color: rgb(87, 226, 219); border-radius: 20px; display: flex; flex-direction: column; align-items: center;  justify-items: center;  width: 63vw; height: 30vh; justify-content: center; min-width:fit-content; max-height: 70vh; min-height: 420px; margin-bottom: -140px;}
 #div-buttons{padding: 6px; display: flex; flex-direction:row; gap: 20px; margin-bottom: 20px;}
