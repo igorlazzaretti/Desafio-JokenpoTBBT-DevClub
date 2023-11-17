@@ -146,6 +146,29 @@ img {
 #button-git {
   font-size: 190%;
 }
+#myLinks{
+  position:fixed;
+  padding: 2px;
+  background-color: blueviolet;
+  top: 10px;
+  border-radius: 20px;
+  width: 26vw;
+  height: 4vw;
+  text-align: center;
+  box-shadow: 0 0 40px rgb(161, 101, 190);
+  }
+#myLinksDiv{
+}
+.myLinksIcons{
+  display: inline-block;
+  width: 4vw;
+  transition: 0.4s;
+}
+.myLinksIcons:hover{
+  scale: 1.2;
+}
+
+
 
 @media only screen and (max-width: 600px) {
   #div-buttons {
