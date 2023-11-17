@@ -25,25 +25,25 @@ const whoWin = (playerValue, sheldonValue) => {
   if (playerValue == "rock" && sheldonValue == "rock") {
     document.querySelector("#pResult").innerHTML =
       "Este Jogo Empatou.<br> Apesar das Estatísticas Calculadas para Diminuir a Probabildiade de Empate.<br> Ambos Escolheram Pedra.";
-    document.querySelector("#img").src = "../Fotos-e-Videos/fotoEmpate.PNG";
+    document.querySelector("#img").src = "./Fotos-e-Videos/fotoEmpate.PNG";
     drawScoreNumber++;
     drawScorePoint.innerHTML = drawScoreNumber;
   } else if (playerValue == "rock" && sheldonValue == "paper") {
     document.querySelector("#pResult").innerHTML =
       "BAZINGA!<br> Sua Pedra foi Coberta pelo Papel. Você perdeu!";
-    document.querySelector("#img").src = "../Fotos-e-Videos/fotoBazinga.PNG";
+    document.querySelector("#img").src = "./Fotos-e-Videos/fotoBazinga.PNG";
     sheldonScoreNumber++;
     sheldonScorePoint.innerHTML = sheldonScoreNumber;
   } else if (playerValue == "rock" && sheldonValue == "scissor") {
     document.querySelector("#pResult").innerHTML =
       "Ponto pra Você!<br> Sua Pedra Quebrou a Tesoura. Você venceu! <br>Continue jogando antes que o Sheldon fique triste, abandone a Teoria das Cordas e adote 12 gatos.";
-    document.querySelector("#img").src = "../Fotos-e-Videos/fotoGatos.PNG";
+    document.querySelector("#img").src = "./Fotos-e-Videos/fotoGatos.PNG";
     humanScoreNumber++;
     humanScorePoint.innerHTML = humanScoreNumber;
   } else if (playerValue == "rock" && sheldonValue == "lizard") {
     document.querySelector("#pResult").innerHTML =
       "Ponto pra Você!<br> Sua Pedra Esmagou o Lagarto. Você venceu! <br>Continue jogando antes que o Sheldon fique triste, abandone a Teoria das Cordas e adote 12 gatos.";
-    document.querySelector("#img").src = "../Fotos-e-Videos/fotoGatos.PNG";
+    document.querySelector("#img").src = "./Fotos-e-Videos/fotoGatos.PNG";
     humanScoreNumber++;
     humanScorePoint.innerHTML = humanScoreNumber;
   } else if (playerValue == "rock" && sheldonValue == "spock") {
