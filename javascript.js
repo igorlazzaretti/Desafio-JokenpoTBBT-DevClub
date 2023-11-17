@@ -153,7 +153,7 @@ const whoWin = (playerValue, sheldonValue) => {
   else if (playerValue == "spock" && sheldonValue == "spock") {
     document.querySelector("#pResult").innerHTML =
       "Saudações Vulcanas!<br> Apesar das Estatísticas Calculadas para Diminuir a Probabildiade de Empate.<br> Os Dois Escolheram Spock.";
-    document.querySelector("#img").src = "./Fotos-e-Videos/fotoEmpate.PNG";
+    document.querySelector("#img").src = '/Fotos-e-Videos/fotoEmpate.PNG';
     drawScoreNumber++;
     drawScorePoint.innerHTML = drawScoreNumber;
   } else if (playerValue == "spock" && sheldonValue == "rock") {
