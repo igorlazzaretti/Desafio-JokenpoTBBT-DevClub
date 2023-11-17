@@ -145,6 +145,9 @@ img {
     position: absolute;
     top: 800px
 }
+#button-git{
+    font-size: 190%;
+}
 
 @media only screen and (max-width: 600px) {
     #div-buttons {

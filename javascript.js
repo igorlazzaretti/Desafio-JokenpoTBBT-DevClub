@@ -182,3 +182,4 @@ const whoWin = (playerValue, sheldonValue) => {
     sheldonScorePoint.innerHTML = sheldonScoreNumber;
   }
 };
+
