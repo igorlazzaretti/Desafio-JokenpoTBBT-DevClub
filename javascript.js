@@ -153,31 +153,31 @@ const whoWin = (playerValue, sheldonValue) => {
   else if (playerValue == "spock" && sheldonValue == "spock") {
     document.querySelector("#pResult").innerHTML =
       "Saudações Vulcanas!<br> Apesar das Estatísticas Calculadas para Diminuir a Probabildiade de Empate.<br> Os Dois Escolheram Spock.";
-    document.querySelector("#img").src = '/Fotos-e-Videos/fotoEmpate.PNG';
+    document.querySelector("#img").src = 'Fotos-e-Videos/fotoEmpate.PNG';
     drawScoreNumber++;
     drawScorePoint.innerHTML = drawScoreNumber;
   } else if (playerValue == "spock" && sheldonValue == "rock") {
     document.querySelector("#pResult").innerHTML =
       "Ponto pra Você!<br> Seu Spock Vaporizou a Pedra do Sheldon.<br> Você venceu! <br> Continue jogando antes que Shelly fique triste, abandone a Teoria das Cordas e adote 12 gatos.";
-    document.querySelector("#img").src = "./Fotos-e-Videos/fotoGatos.PNG";
+    document.querySelector("#img").src = "Fotos-e-Videos/fotoGatos.PNG";
     humanScoreNumber++;
     humanScorePoint.innerHTML = humanScoreNumber;
   } else if (playerValue == "spock" && sheldonValue == "paper") {
     document.querySelector("#pResult").innerHTML =
       "BAZINGA!<br> Seu Spock foi Refutado pelo Papel. Você perdeu!";
-    document.querySelector("#img").src = '/Fotos-e-Videos/fotoBazinga.PNG';
+    document.querySelector("#img").src = 'Fotos-e-Videos/fotoBazinga.PNG';
     sheldonScoreNumber++;
     sheldonScorePoint.innerHTML = sheldonScoreNumber;
   } else if (playerValue == "spock" && sheldonValue == "scissor") {
     document.querySelector("#pResult").innerHTML =
       "Ponto pra Você!<br> Seu Spock Vaporizou a Pedra do Sheldon. Você venceu! Continue jogando antes que Shelly fique triste, abandone a Teoria das Cordas e adote 12 gatos.";
-    document.querySelector("#img").src = "/Fotos-e-Videos/fotoGatos.PNG";
+    document.querySelector("#img").src = "Fotos-e-Videos/fotoGatos.PNG";
     humanScoreNumber++;
     humanScorePoint.innerHTML = humanScoreNumber;
   } else if (playerValue == "spock" && sheldonValue == "lizard") {
     document.querySelector("#pResult").innerHTML =
       "BAZINGA!<br> Seu Spock foi Envenenado Lagarto. Você perdeu!";
-    document.querySelector("#img").src = "/Fotos-e-Videos/fotoBazinga.PNG";
+    document.querySelector("#img").src = "Fotos-e-Videos/fotoBazinga.PNG";
     sheldonScoreNumber++;
     sheldonScorePoint.innerHTML = sheldonScoreNumber;
   }
