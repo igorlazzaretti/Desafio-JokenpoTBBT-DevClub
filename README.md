@@ -12,7 +12,7 @@ https://github.com/igorlazzaretti/Desafio-JokenpoTBBT-DevClub/assets/134664486/9
 ## Sobre o Projeto
  Desafio Javascript + HTML + CSS. Jogo de Jokenpo utilizando tecnologias recentemente aprendidads no curso Desenvolvedor FullStack do DevClub com o professor Rodolfo Mori.
 <div align="center">
-<img src="https://avatars.githubusercontent.com/u/55519539?v=4" width="140"><br><a href="https://github.com/micheleambrosio" target="_blank">Michele Ambrosio</a>
+<img src="https://rodolfomori.com.br/wp-content/uploads/2023/10/foto-rodolfo.jpg" width="140"><br><a href="https://rodolfomori.com.br/links/" target="_blank">Rodolfo Mori</a>
 
 </div>
 
