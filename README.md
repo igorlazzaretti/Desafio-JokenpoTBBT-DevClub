@@ -19,19 +19,11 @@ Principais funções Javascript utilizadas:
 - querySelector
 
 # 👨‍💻 Desenvolvedor
-<table styles="border: none;">
-  <tr>
-    <td>
-      <img src="https://avatars.githubusercontent.com/u/134664486?v=4" width="100" style="border-radius: 15%">
-    </td>
-    <td>
-      <b>Igor Dossin Lazzaretti</b> <br>
-      Linkedin: <a href="https://www.linkedin.com/in/igorlazzaretti/">linkedin.com/in/igorlazzaretti</a> <br>
-      Portifólio: <a href="https://igorlazzaretti.com/">igorlazzaretti.com</a> <br>
-      Projetos GitHub: <a href="https://github.com/igorlazzaretti?tab=repositories">github.com/igorlazzaretti</a>
-    </td>
-  </tr>
-</table>
+
+<b>Igor Dossin Lazzaretti</b> <br>
+Linkedin: <a href="https://www.linkedin.com/in/igorlazzaretti/">linkedin.com/in/igorlazzaretti</a> <br>
+Portifólio: <a href="https://igorlazzaretti.com/">igorlazzaretti.com</a> <br>
+Projetos GitHub: <a href="https://github.com/igorlazzaretti?tab=repositories">github.com/igorlazzaretti</a>
 
 # 📄 Licença
 Este projeto está licenciado sob a **MIT License**, permitindo uso, cópia e modificação para fins educativos ou comerciais, sem garantias ou responsabilidades atribuídas ao autor.
@@ -40,5 +32,5 @@ Este projeto está licenciado sob a **MIT License**, permitindo uso, cópia e mo
 
 <!--
 :video_game: Desafio Jokenpô Contra o Dr. Sheldon Cooper
-Update: Atualização Readme
+Update: Atualização Readme e Licença
  -->
