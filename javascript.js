@@ -1,15 +1,16 @@
+// Constantes que pegam os elementos do HTML
 const humanScorePoint = document.querySelector("#span-player-score");
 const sheldonScorePoint = document.querySelector("#span-sheldon-score");
 const drawScorePoint = document.querySelector("#span-draw-score");
-
-let humanScoreNumber = 0;
+// Variáveis que armazenam os pontos
+let humanScoreNumber   = 0;
 let sheldonScoreNumber = 0;
-let drawScoreNumber = 0;
-
+let drawScoreNumber    = 0;
+// Função que inicia o jogo
 const humanPlay = (humanChoice) => {
   whoWin(humanChoice, sheldonPlay());
 };
-
+// Função que gera a jogada do Sheldon
 const sheldonPlay = () => {
   var varOptions = ["rock", "paper", "scissor", "lizard", "spock"];
 
@@ -17,11 +18,11 @@ const sheldonPlay = () => {
 
   return varOptions[varRandom];
 };
-
+// Função que decide quem ganhou a rodada com base nas jogadas
 const whoWin = (playerValue, sheldonValue) => {
   console.log("humano:" + playerValue + "sheldon:" + sheldonValue);
 
-  // Rock
+  // Usuário escolheu Rock (Pedra)
   if (playerValue == "rock" && sheldonValue == "rock") {
     document.querySelector("#pResult").innerHTML =
       "Este Jogo Empatou.<br> Apesar das Estatísticas Calculadas para Diminuir a Probabildiade de Empate.<br> Ambos Escolheram Pedra.";
@@ -53,7 +54,7 @@ const whoWin = (playerValue, sheldonValue) => {
     sheldonScoreNumber++;
     sheldonScorePoint.innerHTML = sheldonScoreNumber;
   }
-  // Papel
+  // Usuário escolheu Paper (Papel)
   else if (playerValue == "paper" && sheldonValue == "paper") {
     document.querySelector("#pResult").innerHTML =
       "Este Jogo Empatou.<br> Apesar das Estatísticas Calculadas para Diminuir a Probabildiade de Empate.<br> Você e Sheldon Escolheram Papel.";
@@ -85,7 +86,7 @@ const whoWin = (playerValue, sheldonValue) => {
     humanScoreNumber++;
     humanScorePoint.innerHTML = humanScoreNumber;
   }
-  // Tesoura = Scissor
+  // Usuário escolheu Tesoura (Scissor)
   else if (playerValue == "scissor" && sheldonValue == "scissor") {
     document.querySelector("#pResult").innerHTML =
       "Este Jogo Empatou.<br> Apesar das Estatísticas Calculadas para Diminuir a Probabildiade de Empate.<br> Os Dois Escolheram Tesoura.";
@@ -117,7 +118,7 @@ const whoWin = (playerValue, sheldonValue) => {
     sheldonScoreNumber++;
     sheldonScorePoint.innerHTML = sheldonScoreNumber;
   }
-  //Lizard = Lagarto
+  // Usuário escolheu Lizard (Lagarto)
   else if (playerValue == "lizard" && sheldonValue == "lizard") {
     document.querySelector("#pResult").innerHTML =
       "Empatou!<br> Apesar das Estatísticas Calculadas para Diminuir a Probabildiade de Empate.<br> Os Dois Escolheram Lagarto.";
@@ -149,7 +150,7 @@ const whoWin = (playerValue, sheldonValue) => {
     humanScoreNumber++;
     humanScorePoint.innerHTML = humanScoreNumber;
   }
-  //Spock = Senhor Spock
+  // Usuário escolheu Spock (Senhor Spock)
   else if (playerValue == "spock" && sheldonValue == "spock") {
     document.querySelector("#pResult").innerHTML =
       "Saudações Vulcanas!<br> Apesar das Estatísticas Calculadas para Diminuir a Probabildiade de Empate.<br> Os Dois Escolheram Spock.";
@@ -182,4 +183,3 @@ const whoWin = (playerValue, sheldonValue) => {
     sheldonScorePoint.innerHTML = sheldonScoreNumber;
   }
 };
-
